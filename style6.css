@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Lora', serif;
+}
+body{
+  background: rgb(203, 211, 162);
+}
+.main{
+  padding: 0px 0%;
+}
+.Logo img{
+  float: left;
+  width: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+
+}
+nav{
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(223, 214, 197); 
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 22px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(24, 49, 28);
+  padding: 20px 16px;
+  border: 1px solid transparent;
+  transition: 0.7s ease;
+  text-align: center;
+}
+nav ul li a:hover{
+  background-color: rgba(255, 255, 255);
+}
+/*-------------------Contact--------------------*/
+
+#Contact{
+  background-color: rgb(24, 49, 28);
+  padding-bottom: 14%;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.Contact-1 h1{
+  font-size: 60px;
+  color: rgb(203, 211, 162);
+  text-shadow: 2px 2px 5px rgb(0,0,0);
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.Contact-2{
+  margin-left: 20%;
+}
+.Contact-2 img{
+  margin-left: 15px;
+}
+.Contact-2 a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  transition: 0.5s ease;
+}
+.Contact-2 a:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 78, 59);
+  border: 1px solid rgb(45, 78, 59);
+}
+.Contact-3 img{
+  margin-left: 2px;
+}
+.Contact-3 a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  transition: 0.5s ease;
+}
+.Contact-3 a:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 78, 59);
+  border: 1px solid rgb(45, 78, 59);
+}
+.Contact-4{
+  margin-right: 20%;
+}
+.Contact-4 img{
+  margin-left: 15px;
+}
+.Contact-4 a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  transition: 0.5s ease;
+}
+.Contact-4 a:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 78, 59);
+  border: 1px solid rgb(45, 78, 59);
+}
+
+/*-------------------Copyright--------------------*/
+
+footer{
+  background-color: rgb(223, 214, 197);
+  color: rgb(24, 49, 28);
+  text-align: center;
+  padding: 1%;
+}
